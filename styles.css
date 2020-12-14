@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+.bg-dark {
+  background-color: black !important;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar .nav-logo {
+  width: 90px;
+  height: auto;
+}
+/*# sourceMappingURL=styles.css.map */
