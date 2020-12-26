@@ -9,3 +9,15 @@
         height: auto;
     }
 }
+
+.hero-top{
+    height: 70vh;
+    min-height: 400px;
+    max-height: 900px;
+
+    .image-container{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+}
