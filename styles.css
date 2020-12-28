@@ -26,4 +26,39 @@
           align-items: center;
   height: 100%;
 }
+
+.hello-section {
+  height: 70vh;
+  min-height: 400px;
+  max-height: 900px;
+}
+
+.hello-section .hello-div {
+  height: 100%;
+  background-color: white !important;
+}
+
+.hello-section .hello-div .hello-row {
+  height: 100%;
+}
+
+.hello-section .hello-div .hello-row .hello-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.hello-section .hello-div .hello-row .hello-image {
+  height: 100%;
+  background-image: url("/images/group1.JPG");
+  background-size: cover;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -21,3 +21,29 @@
         height: 100%;
     }
 }
+
+.hello-section{
+    height: 70vh;
+    min-height: 400px;
+    max-height: 900px;
+
+    .hello-div{
+        height: 100%;
+        background-color: white !important;
+
+        .hello-row{
+            height: 100%;
+            .hello-content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height:100%;
+            }
+            .hello-image{
+                height: 100%;
+                background-image: url("/images/group1.JPG");
+                background-size: cover;
+            }
+        }
+    }
+}
