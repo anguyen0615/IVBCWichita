@@ -1,3 +1,7 @@
+@import "./fontAwesome/scss/fontawesome.scss";
+@import "./fontAwesome/scss/solid.scss";
+@import "./fontAwesome/scss/brands.scss";
+
 .bg-dark{
     background-color: black !important;
 }
@@ -21,16 +25,13 @@
     }
 }
 
-.welcome-content{
-    min-height: 322px;;
-}
-
 .worship-bg{
     background-image: url("/images/worship.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    padding: 5rem;
+    background-position: bottom;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 
     h1{
         color:white;
