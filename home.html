@@ -12,7 +12,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
+    <div class="container-fluid px-3">
       <a class="navbar-brand" href="home.html"><img class="nav-logo" src="images/IVBC-black.jpg" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,32 +40,49 @@
     </div>
   </nav>
 
-  <section class="hero-top">
-    <div class="jumbotron image-container">
-      <div class="row">
-        <div class="col">
-          <h1 class="display-4">Hello, Home!</h1>
-          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-            featured content or information.</p>
-          <hr class="my-4">
-          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </div>
+  <section class="hero-top container-fluid px-0">
+    <div class="jumbotron image-container row align-items-center mr-0">
+      <div class="col">
+        <h1 class="display-4">Hello, Home!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+          featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
       </div>
     </div>
   </section>
 
-  <section class="hello-section">
-    <div class="jumbotron container-fluid hello-div">
-      <div class="row hello-row">
-        <div class="col-md-12 col-lg-6 hello-content">
-          <div class="content-container">
+  <section class="container-fluid px-0">
+    <div class="row mx-0 align-items-center">
+
+      <div class="col-md-12 col-lg-6 text-center welcome-content">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-12">
             <h1 class="display-4">You're Welcome Here!</h1>
             <p class="lead">Our goal is to help you become the person that God has made you to be.</p>
           </div>
         </div>
-        <div class="col-md-12 col-lg-6 hello-image bg-image">
+      </div>
+
+      <div class="col-md-12 col-lg-6 px-0">
+        <img src="/images/group1.JPG" alt="a group picture" class="img-fluid">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="container-fluid px-0 worship-bg">
+    <div class="row mx-0 ">
+      <div class="col-12">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h1 class="display-4">Worship With Us</h1>
+            <p class="lead">We’re passionate about creating an atmosphere that encourages people to pursue a
+              relationship with Jesus. Come worship with us this weekend.</p>
+          </div>
         </div>
+
       </div>
     </div>
   </section>
