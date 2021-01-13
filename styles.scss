@@ -1,3 +1,52 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    #group1{
+        display: none;
+    }
+    #bible{
+        display: none;
+    }
+    .hero-top{
+        #first-title{
+            display: none;
+        }
+        p{
+            display: none;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero-top{
+        #first-title{
+            display: none;
+        }
+        p{
+            display: none;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
 
 .bg-dark{
     background-color: black !important;
@@ -12,14 +61,21 @@
 }
 
 .hero-top{
-    height: 70vh;
-    min-height: 400px;
+    height:70vh;
     max-height: 900px;
 
     .image-container{
         display: flex;
         height: 100%;
     }
+}
+
+.welcome-content{
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .worship-bg{
@@ -38,14 +94,69 @@
     }
 }
 
+.learn-content{
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .page-footer{
-    h6{
-        color: white;
+
+    .footer-info{
+        .info-bar{
+            width: 125px;
+            height: 2px;
+        }
+        h6{
+            color: white;
+        }
+        p{
+            color: #D3D3D3;
+        }
     }
-    p{
-        color: #D3D3D3
+
+    .footer-product{
+        .product-bar{
+            width: 85px;
+            height: 2px;
+        }
+        h6{
+            color: white;
+        }
+        a{
+            color: #D3D3D3;
+        }
     }
-    a{
-        color: #D3D3D3;
+
+    .footer-links{
+        .links-bar{
+            width: 110px;
+            height: 2px;
+        }
+        h6{
+            color: white;
+        }
+        a{
+            color:  #D3D3D3;
+        }
+    }
+
+    .footer-contact{
+        .contact-bar{
+            width: 75px;
+            height: 2px;
+        }
+        h6{
+            color: white;
+        }
+        li{
+            color:#D3D3D3;
+        }
+    }
+    .footer-copyright{
+        p{
+            color:#D3D3D3;
+        }
     }
 }

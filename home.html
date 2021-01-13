@@ -44,9 +44,10 @@
   </nav>
 
   <section class="hero-top container-fluid px-0 py-1">
-    <div class="jumbotron image-container row align-items-center mr-0">
-      <div class="col">
-        <h1 class="display-4">Hello, we are Immanuel Vietnamese Baptist Church!</h1>
+    <div class="jumbotron image-container row align-items-center justify-content-center mr-0">
+      <div class="col text-center col-lg-8">
+        <h1 id="first-title" class="display-4">Hello, Welcome To Immanuel Vietnamese Baptist Church!</h1>
+        <h1 id="second-title" class="display-4 d-md-none">Welcome To IVBC!</h1>
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
           featured content or information.</p>
         <hr class="my-4">
@@ -72,7 +73,7 @@
       </div>
 
       <div class="col-md-12 col-lg-6 px-0">
-        <img src="/images/group1.JPG" alt="a group picture" class="img-fluid">
+        <img id="group1" src="/images/group1.JPG" alt="a group picture" class="img-fluid">
       </div>
 
     </div>
@@ -100,7 +101,7 @@
     <div class="row mx-0 align-items-center">
 
       <div class="col-md-12 col-lg-6 px-0">
-        <img src="/images/bible.jpg" alt="a picture of the bible" class="img-fluid">
+        <img id="bible" src="/images/bible.jpg" alt="a picture of the bible" class="img-fluid">
       </div>
 
       <div class="col-md-12 col-lg-6 text-center learn-content">
@@ -118,74 +119,78 @@
     </div>
   </section>
 
-  <footer class="page-footer bg-dark">
+  <footer class="page-footer bg-dark pt-1">
 
-    <div class="bg-success">
-      <div class="container">
-        <div class="row py-4 d-flex align-items-center">
-         
-          <div class="col-md-12 text-center"> 
-              <a href="#"><i class="fab fa-facebook-f white-text mr-4"> </i></a>         
-              <a href="#"><i class="fab fa-twitter white-text mr-4"> </i></a>
-              <a href="#"><i class="fab fa-google-plus-g white-text mr-4"> </i></a>
-              <a href="#"><i class="fab fa-linkedin-in white-text mr-4"> </i></a>
-              <a href="#"><i class="fab fa-instagram white-text"> </i></a> 
-             </div>
-  
-       </div>
-      </div>
-    </div>
-  
     <div class="container text-center text-md-left mt-5">
       <div class="row">
-  
-        <div class="col-md-3 mx-auto mb-4">
+
+        <div class="col-md-3 mx-auto mb-4 footer-info">
           <h6 class="text-uppercase font-weight-bold">The Providers</h6>
-          <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height: 2px">
-          <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto info-bar">
+          <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </div>
-  
-        <div class="col-md-2 mx-auto mb-4">
+
+        <div class="col-md-2 mx-auto mb-4 footer-product">
           <h6 class="text-uppercase font-weight-bold">Products</h6>
-          <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 85px; height: 2px">
-         
-           <ul class="list-unstyled">
-              <li class="my-2"><a href="#">HTML 5</a></li>        
-              <li class="my-2"><a href="#">CSS 3</a></li>
-              <li class="my-2"><a href="#">Bootstrap 4</a></li>
-              <li class="my-2"> <a href="#">JavaScript</a></li>         
-            </ul>
+          <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto product-bar">
+
+          <ul class="list-unstyled">
+            <li class="my-2"><a href="#">HTML 5</a></li>
+            <li class="my-2"><a href="#">CSS 3</a></li>
+            <li class="my-2"><a href="#">Bootstrap 4</a></li>
+            <li class="my-2"> <a href="#">JavaScript</a></li>
+          </ul>
         </div>
-    
-        <div class="col-md-2 mx-auto mb-4">
+
+        <div class="col-md-2 mx-auto mb-4 footer-links">
           <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-          <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 110px; height: 2px">
-            <ul class="list-unstyled">
-              <li class="my-2"><a href="#">Home</a></li>        
-              <li class="my-2"><a href="#">About</a></li>
-              <li class="my-2"><a href="#">Services</a></li>
-              <li class="my-2"> <a href="#">Contact</a></li>         
-            </ul>
+          <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto links-bar">
+          <ul class="list-unstyled">
+            <li class="my-2"><a href="#">Home</a></li>
+            <li class="my-2"><a href="#">About</a></li>
+            <li class="my-2"><a href="#">Services</a></li>
+            <li class="my-2"> <a href="#">Contact</a></li>
+          </ul>
         </div>
-  
-        <div class="col-md-3 mx-auto mb-4">
+
+        <div class="col-md-3 mx-auto mb-4 footer-contact">
           <h6 class="text-uppercase font-weight-bold">Contact</h6>
-          <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 75px; height: 2px">
-            <ul class="list-unstyled">
-              <li class="my-2"><i class="fas fa-home mr-3"></i> Wichita, KS 67207, US</li>
-              <li class="my-2"><i class="fas fa-envelope mr-3"></i> theproviders@gmail.com</li>
-              <li class="my-2"><i class="fas fa-phone mr-3"></i> + 01 234 567 88</li>
-              <li class="my-2"><i class="fas fa-print mr-3"></i> + 01 234 567 89</li>
-            </ul>
+          <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto contact-bar">
+          <ul class="list-unstyled">
+            <li class="my-2"><i class="fas fa-home mr-3"></i> 1401 W Maple Wichita, KS</li>
+            <li class="my-2"><i class="fas fa-envelope mr-3"></i> IVBCKS@gmail.com</li>
+            <li class="my-2"><i class="fas fa-phone mr-3"></i> + 1 316 312 4946</li>
+            <li class="my-2"><i class="fas fa-print mr-3"></i> + 1 316 312 4946</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-2">
+      <p>&copy; Copyright
+        <a href="#">IVBCWichita.org</a>
+      </p>
+      <p>Designed by IVBC</p>
+    </div>
+
+    <div class="bg-dark">
+      <div class="container">
+        <div class="row py-4 d-flex align-items-center">
+
+          <div class="col-md-12 text-center">
+            <a href="#"><i class="fab fa-facebook-f white-text mr-4"> </i></a>
+            <a href="#"><i class="fab fa-twitter white-text mr-4"> </i></a>
+            <a href="#"><i class="fab fa-google-plus-g white-text mr-4"> </i></a>
+            <a href="#"><i class="fab fa-linkedin-in white-text mr-4"> </i></a>
+            <a href="#"><i class="fab fa-instagram white-text"> </i></a>
+          </div>
+
         </div>
       </div>
     </div>
-  
-    <div class="footer-copyright text-center py-3">
-      <p>&copy; Copyright
-      <a href="#">IVBCWichita.org</a></p>
-      <p>Designed by IVBC</p>
-    </div>
+
   </footer>
 
   <script src="node_modules/jquery/dist/jquery.min.js"></script>

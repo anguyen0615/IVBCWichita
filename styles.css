@@ -1,3 +1,31 @@
+@media (max-width: 575.98px) {
+  #group1 {
+    display: none;
+  }
+  #bible {
+    display: none;
+  }
+  .hero-top #first-title {
+    display: none;
+  }
+  .hero-top p {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero-top #first-title {
+    display: none;
+  }
+  .hero-top p {
+    display: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-dark {
   background-color: black !important;
 }
@@ -13,7 +41,6 @@
 
 .hero-top {
   height: 70vh;
-  min-height: 400px;
   max-height: 900px;
 }
 
@@ -22,6 +49,20 @@
   display: -ms-flexbox;
   display: flex;
   height: 100%;
+}
+
+.welcome-content {
+  min-height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .worship-bg {
@@ -41,15 +82,73 @@
   color: white;
 }
 
-.page-footer h6 {
+.learn-content {
+  min-height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-footer .footer-info .info-bar {
+  width: 125px;
+  height: 2px;
+}
+
+.page-footer .footer-info h6 {
   color: white;
 }
 
-.page-footer p {
+.page-footer .footer-info p {
   color: #D3D3D3;
 }
 
-.page-footer a {
+.page-footer .footer-product .product-bar {
+  width: 85px;
+  height: 2px;
+}
+
+.page-footer .footer-product h6 {
+  color: white;
+}
+
+.page-footer .footer-product a {
+  color: #D3D3D3;
+}
+
+.page-footer .footer-links .links-bar {
+  width: 110px;
+  height: 2px;
+}
+
+.page-footer .footer-links h6 {
+  color: white;
+}
+
+.page-footer .footer-links a {
+  color: #D3D3D3;
+}
+
+.page-footer .footer-contact .contact-bar {
+  width: 75px;
+  height: 2px;
+}
+
+.page-footer .footer-contact h6 {
+  color: white;
+}
+
+.page-footer .footer-contact li {
+  color: #D3D3D3;
+}
+
+.page-footer .footer-copyright p {
   color: #D3D3D3;
 }
 /*# sourceMappingURL=styles.css.map */
