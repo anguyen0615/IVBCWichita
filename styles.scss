@@ -1,6 +1,3 @@
-@import "./fontAwesome/scss/fontawesome.scss";
-@import "./fontAwesome/scss/solid.scss";
-@import "./fontAwesome/scss/brands.scss";
 
 .bg-dark{
     background-color: black !important;
@@ -38,5 +35,17 @@
     }
     p{
         color: white;
+    }
+}
+
+.page-footer{
+    h6{
+        color: white;
+    }
+    p{
+        color: #D3D3D3
+    }
+    a{
+        color: #D3D3D3;
     }
 }
