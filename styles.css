@@ -151,4 +151,28 @@ html {
 .page-footer .footer-copyright p {
   color: #D3D3D3;
 }
+
+.background-gray1 {
+  background-color: #f6f6f6;
+}
+
+.about-hero {
+  height: 75vh;
+  background-image: url("http://placehold.jp/2443x1634.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-hero h3 {
+  color: white;
+}
+
+.about-hero .about-hero-row {
+  padding-top: 8rem;
+}
+
+.card {
+  width: 25rem;
+}
 /*# sourceMappingURL=styles.css.map */
