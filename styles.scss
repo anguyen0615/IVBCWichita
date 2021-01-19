@@ -211,3 +211,18 @@ html{
 .card{
     width: 25rem;
 }
+
+
+// BELIEF PAGE
+
+.belief-hero{
+    height: 50vh;
+    background-image: url("http://placehold.jp/2443x1634.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .belief-hero-row{
+        padding-top: 8rem;
+    }
+}
