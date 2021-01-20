@@ -187,4 +187,8 @@ html {
 .belief-hero .belief-hero-row {
   padding-top: 8rem;
 }
+
+.belief-hero .belief-hero-row h3 {
+  color: white;
+}
 /*# sourceMappingURL=styles.css.map */
