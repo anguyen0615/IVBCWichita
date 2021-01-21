@@ -237,6 +237,10 @@ html{
 
 .event-card{
     width: 20rem;
+    background-color: #f6f6f6;
+    img{
+        max-height: 220px;
+    }
 
     a{
         width: 100%;
