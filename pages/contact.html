@@ -10,18 +10,17 @@
   <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body>
+<body class="contact-body">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
+    <div class="container-fluid px-3">
       <a class="navbar-brand" href="../index.html"><img class="nav-logo" src="../images/IVBC-black.jpg" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
@@ -34,25 +33,125 @@
             <a class="nav-link" href="location.html">Location</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="jumbotron">
-    <h1 class="display-4">Hello, Contact !</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-      featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+
+  <div class="container contact-form">
+    <div class="contact-image">
+      <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
+    </div>
+    <form method="post">
+      <h3>Drop Us a Message</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+          </div>
+          <div class="form-group">
+            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <textarea name="txtMsg" class="form-control form-textarea" placeholder="Your Message *"></textarea>
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
 
+
+
+  <footer class="page-footer bg-dark pt-1">
+
+    <div class="container text-center text-md-left mt-5">
+      <div class="row">
+
+        <div class="col-md-3 mx-auto mb-4 footer-info">
+          <h6 class="text-uppercase font-weight-bold">The Providers</h6>
+          <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto info-bar">
+          <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+
+        <div class="col-md-2 mx-auto mb-4 footer-product">
+          <h6 class="text-uppercase font-weight-bold">Products</h6>
+          <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto product-bar">
+
+          <ul class="list-unstyled">
+            <li class="my-2"><a href="#">HTML 5</a></li>
+            <li class="my-2"><a href="#">CSS 3</a></li>
+            <li class="my-2"><a href="#">Bootstrap 4</a></li>
+            <li class="my-2"> <a href="#">JavaScript</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 mx-auto mb-4 footer-links">
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto links-bar">
+          <ul class="list-unstyled">
+            <li class="my-2"><a href="#">Home</a></li>
+            <li class="my-2"><a href="#">About</a></li>
+            <li class="my-2"><a href="#">Services</a></li>
+            <li class="my-2"> <a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 mx-auto mb-4 footer-contact">
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto contact-bar">
+          <ul class="list-unstyled">
+            <li class="my-2"><i class="fas fa-home mr-3"></i> 1401 W Maple Wichita, KS</li>
+            <li class="my-2"><i class="fas fa-envelope mr-3"></i> IVBCKS@gmail.com</li>
+            <li class="my-2"><i class="fas fa-phone mr-3"></i> + 1 316 312 4946</li>
+            <li class="my-2"><i class="fas fa-print mr-3"></i> + 1 316 312 4946</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-2">
+      <p>&copy; Copyright
+        <a href="#">IVBCWichita.org</a>
+      </p>
+      <p>Designed by IVBC</p>
+    </div>
+
+    <div class="bg-dark">
+      <div class="container">
+        <div class="row py-4 d-flex align-items-center">
+
+          <div class="col-md-12 text-center">
+            <a href="#"><i class="fab fa-facebook-f white-text mr-4"> </i></a>
+            <a href="#"><i class="fab fa-twitter white-text mr-4"> </i></a>
+            <a href="#"><i class="fab fa-google-plus-g white-text mr-4"> </i></a>
+            <a href="#"><i class="fab fa-linkedin-in white-text mr-4"> </i></a>
+            <a href="#"><i class="fab fa-instagram white-text"> </i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
   <script src="../node_modules/jquery/dist/jquery.min.js"></script>
   <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
   <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script defer src="../node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+  <script defer src="../node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+  <script defer src="../node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
 </body>
 
 </html>
