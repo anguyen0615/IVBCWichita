@@ -201,4 +201,8 @@ html {
 .event-card a {
   width: 100%;
 }
+
+.event-container {
+  height: 50vh;
+}
 /*# sourceMappingURL=styles.css.map */
