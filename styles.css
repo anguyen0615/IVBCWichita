@@ -154,6 +154,9 @@ html {
 
 .background-gray1 {
   background-color: #f6f6f6;
+}
+
+.about-hero {
   height: 75vh;
   background-image: url("http://placehold.jp/2443x1634.png");
   background-repeat: no-repeat;
@@ -165,12 +168,12 @@ html {
   color: white;
 }
 
-.about-hero .about-hero-row {
-  padding-top: 8rem;
+.about-hero .about-hero-content {
+  padding-top: 10rem;
 }
 
 .card {
-  width: 25rem;
+  width: 24rem;
 }
 
 .belief-hero {
@@ -204,5 +207,20 @@ html {
 
 .event-container {
   height: 50vh;
+}
+
+.map-container-6 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-6 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 /*# sourceMappingURL=styles.css.map */
