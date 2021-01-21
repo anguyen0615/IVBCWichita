@@ -190,22 +190,22 @@ html{
 
 .background-gray1{
     background-color: #f6f6f6;
+    
+}
+
+.about-hero{
     height: 75vh;
     background-image: url("http://placehold.jp/2443x1634.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-.about-hero{
-    
 
     h3{
         color: white;
     }
 
-    .about-hero-row{
-        padding-top: 8rem;
+    .about-hero-content{
+        padding-top: 10rem;
     }
 }
 
