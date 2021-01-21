@@ -154,9 +154,6 @@ html {
 
 .background-gray1 {
   background-color: #f6f6f6;
-}
-
-.about-hero {
   height: 75vh;
   background-image: url("http://placehold.jp/2443x1634.png");
   background-repeat: no-repeat;
@@ -190,5 +187,22 @@ html {
 
 .belief-hero .belief-hero-row h3 {
   color: white;
+}
+
+.event-card {
+  width: 20rem;
+  background-color: #f6f6f6;
+}
+
+.event-card img {
+  max-height: 220px;
+}
+
+.event-card a {
+  width: 100%;
+}
+
+.event-container {
+  height: 50vh;
 }
 /*# sourceMappingURL=styles.css.map */
