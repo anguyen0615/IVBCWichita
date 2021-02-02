@@ -1,0 +1,295 @@
+@media (max-width: 575.98px) {
+  #group1 {
+    display: none;
+  }
+  #bible {
+    display: none;
+  }
+  .hero-top #first-title {
+    display: none;
+  }
+  .hero-top p {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero-top #first-title {
+    display: none;
+  }
+  .hero-top p {
+    display: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar .nav-logo {
+  width: 90px;
+  height: auto;
+}
+
+.hero-top {
+  height: 70vh;
+  max-height: 900px;
+}
+
+.hero-top .image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  background-color: #D3D3D3;
+}
+
+.welcome-content {
+  min-height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.worship-bg {
+  background-image: url("images/worship.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.worship-bg h1 {
+  color: white;
+}
+
+.worship-bg p {
+  color: white;
+}
+
+.learn-content {
+  min-height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-footer .footer-info .info-bar {
+  width: 125px;
+  height: 2px;
+}
+
+.page-footer .footer-info h6 {
+  color: white;
+}
+
+.page-footer .footer-info p {
+  color: #D3D3D3;
+}
+
+.page-footer .footer-product .product-bar {
+  width: 85px;
+  height: 2px;
+}
+
+.page-footer .footer-product h6 {
+  color: white;
+}
+
+.page-footer .footer-product a {
+  color: #D3D3D3;
+}
+
+.page-footer .footer-links .links-bar {
+  width: 110px;
+  height: 2px;
+}
+
+.page-footer .footer-links h6 {
+  color: white;
+}
+
+.page-footer .footer-links a {
+  color: #D3D3D3;
+}
+
+.page-footer .footer-contact .contact-bar {
+  width: 75px;
+  height: 2px;
+}
+
+.page-footer .footer-contact h6 {
+  color: white;
+}
+
+.page-footer .footer-contact li {
+  color: #D3D3D3;
+}
+
+.page-footer .footer-copyright p {
+  color: #D3D3D3;
+}
+
+.background-gray1 {
+  background-color: #f6f6f6;
+}
+
+.about-hero {
+  height: 75vh;
+  background-image: url("http://placehold.jp/2443x1634.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-hero h3 {
+  color: white;
+}
+
+.about-hero .about-hero-content {
+  padding-top: 10rem;
+}
+
+.card {
+  width: 24rem;
+}
+
+.belief-hero {
+  height: 50vh;
+  background-image: url("http://placehold.jp/2443x1634.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.belief-hero .belief-hero-row {
+  padding-top: 8rem;
+}
+
+.belief-hero .belief-hero-row h3 {
+  color: white;
+}
+
+.event-card {
+  width: 20rem;
+  background-color: #f6f6f6;
+}
+
+.event-card img {
+  max-height: 220px;
+}
+
+.event-card a {
+  width: 100%;
+}
+
+.event-container {
+  height: 50vh;
+}
+
+.map-container-6 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-6 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.contact-body {
+  background-color: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+
+.contact-form {
+  background-color: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+
+.contact-form .form-control {
+  border-radius: 1rem;
+}
+
+.contact-image {
+  text-align: center;
+}
+
+.contact-image img {
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  -webkit-transform: rotate(29deg);
+          transform: rotate(29deg);
+}
+
+.contact-form form {
+  padding: 14%;
+}
+
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+
+.contact-form h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background-color: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
+
+.form-textarea {
+  width: 100%;
+  height: 150px;
+}
+/*# sourceMappingURL=styles.css.map */
